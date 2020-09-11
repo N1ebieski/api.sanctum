@@ -4,7 +4,7 @@ Backend implementation of authentication by Laravel Sanctum in [Vue Nuxt.JS appl
 
 ## Important things
 
-.ENV config (my example in .env.example):
+.ENV config (my config in .env.example):
 
 1. SESSION_DOMAIN must supports domain of frontend app
 2. SANCTUM_STATEFUL_DOMAINS must contains domains (local and production) with (if any) ports, without protocols of frontend app (in Postman a Referer field can be created for this purpose in the Header)
